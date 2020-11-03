@@ -1,0 +1,10 @@
+{
+    "presets": [["@babel/env", {
+        "debug": true,
+        "corejs": 3,
+        "useBuiltIns": "usage",
+        "modules": "commonjs"
+    }],
+    "@babel/react"],
+    "plugins": ["@babel/proposal-class-properties"]
+}
