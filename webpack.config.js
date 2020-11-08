@@ -7,7 +7,7 @@ module.exports = (env = {}) => {
 
     return {
         mode: env.mode,
-        entry: './src/components/app/app.js',
+        entry: './src/app/app.js',
         output: {
             path: path.resolve(__dirname, 'dist'),
             filename: 'bundle.js'
